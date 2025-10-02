@@ -81,3 +81,5 @@ SolarOpti/
 1.  **渐进式完善**：您可以从最核心的模块开始创建（例如先建立 `mechanical/`、`src/firmware/` 和 `docs/`），后续再逐步补充其他目录。
 2.  **README驱动**：在 `README.md` 中清晰地描述项目愿景、硬件清单、软件依赖和构建步骤，这是项目的门面。
 3.  **考虑采用GitOps理念**：随着项目复杂度的提升，可以考虑引入GitOps实践，将基础设施（如服务器配置）和部署流程也通过代码（如Dockerfile、Kubernetes清单）管理在仓库中，实现更高效的自动化运维。
+   
+![alt text](assets/figs/solaropti.png)
